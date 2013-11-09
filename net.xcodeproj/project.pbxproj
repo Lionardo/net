@@ -25,6 +25,12 @@
 		321D1B8A182D5A05005E55E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D1B65182D5A05005E55E5 /* CoreData.framework */; };
 		321D1B92182D5A05005E55E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321D1B90182D5A05005E55E5 /* InfoPlist.strings */; };
 		321D1B94182D5A05005E55E5 /* netTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D1B93182D5A05005E55E5 /* netTests.m */; };
+		32928B41182D93A900E79E35 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32928B40182D93A900E79E35 /* MessageUI.framework */; };
+		32928B46182D99F500E79E35 /* americano.png in Resources */ = {isa = PBXBuildFile; fileRef = 32928B42182D99F500E79E35 /* americano.png */; };
+		32928B47182D99F500E79E35 /* latte.png in Resources */ = {isa = PBXBuildFile; fileRef = 32928B43182D99F500E79E35 /* latte.png */; };
+		32928B48182D99F500E79E35 /* espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32928B44182D99F500E79E35 /* espresso.jpg */; };
+		32928B49182D99F500E79E35 /* Coffee_cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 32928B45182D99F500E79E35 /* Coffee_cream.png */; };
+		32928B4B182D9A6000E79E35 /* Coffee-icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 32928B4A182D9A6000E79E35 /* Coffee-icon-58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		321D1B8F182D5A05005E55E5 /* netTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "netTests-Info.plist"; sourceTree = "<group>"; };
 		321D1B91182D5A05005E55E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		321D1B93182D5A05005E55E5 /* netTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netTests.m; sourceTree = "<group>"; };
+		32928B40182D93A900E79E35 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		32928B42182D99F500E79E35 /* americano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americano.png; sourceTree = "<group>"; };
+		32928B43182D99F500E79E35 /* latte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = latte.png; sourceTree = "<group>"; };
+		32928B44182D99F500E79E35 /* espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = espresso.jpg; sourceTree = "<group>"; };
+		32928B45182D99F500E79E35 /* Coffee_cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coffee_cream.png; sourceTree = "<group>"; };
+		32928B4A182D9A6000E79E35 /* Coffee-icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee-icon-58.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32928B41182D93A900E79E35 /* MessageUI.framework in Frameworks */,
 				321D1B62182D5A05005E55E5 /* CoreGraphics.framework in Frameworks */,
 				321D1B66182D5A05005E55E5 /* CoreData.framework in Frameworks */,
 				321D1B64182D5A05005E55E5 /* UIKit.framework in Frameworks */,
@@ -111,6 +124,7 @@
 		321D1B5E182D5A05005E55E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32928B40182D93A900E79E35 /* MessageUI.framework */,
 				321D1B5F182D5A05005E55E5 /* Foundation.framework */,
 				321D1B61182D5A05005E55E5 /* CoreGraphics.framework */,
 				321D1B63182D5A05005E55E5 /* UIKit.framework */,
@@ -140,6 +154,11 @@
 		321D1B68182D5A05005E55E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32928B4A182D9A6000E79E35 /* Coffee-icon-58.png */,
+				32928B42182D99F500E79E35 /* americano.png */,
+				32928B43182D99F500E79E35 /* latte.png */,
+				32928B44182D99F500E79E35 /* espresso.jpg */,
+				32928B45182D99F500E79E35 /* Coffee_cream.png */,
 				321D1B69182D5A05005E55E5 /* net-Info.plist */,
 				321D1B6A182D5A05005E55E5 /* InfoPlist.strings */,
 				321D1B6D182D5A05005E55E5 /* main.m */,
@@ -242,9 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32928B47182D99F500E79E35 /* latte.png in Resources */,
 				321D1B80182D5A05005E55E5 /* Images.xcassets in Resources */,
 				321D1B6C182D5A05005E55E5 /* InfoPlist.strings in Resources */,
+				32928B48182D99F500E79E35 /* espresso.jpg in Resources */,
+				32928B49182D99F500E79E35 /* Coffee_cream.png in Resources */,
+				32928B4B182D9A6000E79E35 /* Coffee-icon-58.png in Resources */,
 				321D1B75182D5A05005E55E5 /* Main.storyboard in Resources */,
+				32928B46182D99F500E79E35 /* americano.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +500,7 @@
 				321D1B99182D5A05005E55E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321D1B9A182D5A05005E55E5 /* Build configuration list for PBXNativeTarget "netTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +509,7 @@
 				321D1B9C182D5A05005E55E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
